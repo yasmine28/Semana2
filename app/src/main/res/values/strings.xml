@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Semana2</string>
+    <string name="frm_name">Nombre: </string>
+    <string name="frm_birth_date">Fecha de nacimiento:</string>
+    <string name="frm_telephone">Teléfono</string>
+    <string name="frm_email">Email</string>
+    <string name="frm_description">Descripción</string>
+    <string name="frm_nextBtn">Siguiente.</string>
+
+    <string name="hint_name">Introduce el nombre</string>
+    <string name="hint_birth_date">Introduce la fecha de nacimiento</string>
+    <string name="hint_telephone">Introduce el teléfono</string>
+    <string name="hint_email">Introduce el email</string>
+    <string name="hint_note">Descripción del contacto</string>
+
+    <string name="sec_confirm_title">Confirmar Datos</string>
+    <string name="frm_edit_btn">Editar</string>
+</resources>

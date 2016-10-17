@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yasmine.semana2.MainActivity"
+    android:background="@color/backgroud">
+
+    <EditText
+        android:id="@+id/complete_name"
+        android:inputType="textAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:clickable="true"
+        android:enabled="true"
+/>
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="@dimen/activity_vertical_margin"
+     android:layout_marginLeft="@dimen/activity_vertical_margin"
+     android:layout_marginRight="@dimen/activity_vertical_margin"
+     android:text="@string/frm_birth_date"/>
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:clickable="false"
+        android:addStatesFromChildren="true"
+        android:nestedScrollingEnabled="true"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:spinnersShown="true"
+        android:contentDescription="@string/hint_birth_date"
+        />
+
+    <EditText
+        android:id="@+id/ftm_telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_telephone"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        />
+    <EditText
+        android:id="@+id/ftm_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        />
+    <EditText
+        android:id="@+id/ftm_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_note"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"/>
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frm_nextBtn"/>
+
+</LinearLayout>
